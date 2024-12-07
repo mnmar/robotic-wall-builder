@@ -7,9 +7,6 @@ This project implements an automated system to build a wall using a robotic arm.
 - **Camera-Based Detection**: Detects cubes using a camera and HSV color filtering.
 - **Arduino Control**: Moves the robotic arm for cube manipulation.
 
-## Repository Structure
-robotic-wall-builder/ ├── arduino/ │ ├── wall_builder.ino # Arduino code controlling motors ├── python/ │ ├── build_red_layer.py # Code to build the red layer │ ├── build_blue_layer.py # Code to build the blue layer │ ├── build_green_layer.py # Code to build the green layer ├── README.md # Project description and instructions
-
 ## Requirements
 - Python 3.x
 - OpenCV
